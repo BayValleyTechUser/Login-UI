@@ -1,0 +1,96 @@
+body {
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Merriweather', sans-serif;
+    background-color: #0e2637;
+}
+
+@media only screen and (max-width: 600px) {
+    .login-container {
+        width: 80%;
+    }
+}
+@font-face{
+    font-family: 'Merriweather';
+    src: url('Merriweather-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.login-container {
+    position: relative; 
+    z-index: 1; 
+    background-color: #0e3d45;
+    box-shadow:0 0 10px rgba(27, 110, 119, 0.1), 0 0 20px rgba(12, 168, 185, 0.979), 0 0 30px rgba(27, 110, 119, 0.4);
+    padding: 40px;
+    width: 230px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width:140%;
+    height: auto;
+    z-index: 0; 
+    opacity: 0.38;
+}
+h2 {
+    color: #c6c6c6;
+    font-family: 'Merriweather', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0 5px 0;
+    color: #cdcdcd;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #129b62;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #53b2b4ac;
+    color: #fff3f3;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Merriweather', sans-serif;
+}
+
+button:hover {
+    background-color: #678ec898;
+}
+.home-container {
+    position: absolute;
+    top: 40px; /* Adjust the top position as needed */
+    left: 52x; /* Adjust the left position as needed */
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.hero-text {
+    color: #ffffff;
+    font-size: 2em; /* Adjust the font size as needed */
+    margin: 0;
+}
