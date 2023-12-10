@@ -82,8 +82,8 @@ button:hover {
 }
 .home-container {
     position: absolute;
-    top: 40px; /* Adjust the top position as needed */
-    left: 52x; /* Adjust the left position as needed */
+    top: 40px;
+    left: 52x; 
     display: flex;
     align-items: center;
     z-index: 1;
@@ -91,6 +91,6 @@ button:hover {
 
 .hero-text {
     color: #ffffff;
-    font-size: 2em; /* Adjust the font size as needed */
+    font-size: 2em; 
     margin: 0;
 }
